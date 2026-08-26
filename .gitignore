@@ -1,0 +1,27 @@
+# Sensitive material: keep it out of version control
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+*.ovpn
+credentials*
+secrets*
+*.hash
+
+# Tool output and local workspace files
+*.pcap
+*.pcapng
+*.bak
+*.tmp
+*.swp
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep sanitized, selected screenshots; ignore bulky/raw captures by default
+screenshots/raw/
