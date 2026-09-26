@@ -25,3 +25,17 @@ Thumbs.db
 
 # Keep sanitized, selected screenshots; ignore bulky/raw captures by default
 screenshots/raw/
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# GOAD private/raw evidence
+goad-evidence/
+**/bloodhound/*.zip
+**/bloodhound/*.json
+**/kerberoasting.hashes
+**/kerberoast*.log
